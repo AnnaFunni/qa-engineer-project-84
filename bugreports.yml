@@ -4,49 +4,41 @@
     https://hexlet-products-store.vercel.app/
 
 - summary: |
-    Выбор товара по поиску  
+    Выбор товара по поиску "Appe" 
   environment: |
     https://hexlet-products-store.vercel.app/
 
 - summary: |
-    Выбор товара по категории   
+    Не показывает товар по категории, которого нет в наличии    
   environment: |
-    https://hexlet-products-store.vercel.app/
+   https://hexlet-products-store.vercel.app/
 
-- summary: |
-    Выбор товара по категории   
+   - summary: |
+    Не показывает товар по бренду, которого нет в наличии 
   environment: |
    https://hexlet-products-store.vercel.app/
 
 - summary: |
-    Выбор товара по категории 
-  environment: |
-     https://hexlet-products-store.vercel.app/
-
-- summary: |
-    Выбор товара по категории 
-  environment: |
-     https://hexlet-products-store.vercel.app/
-
-- summary: |
-    Выбор товара по категории 
-  environment: |
-     https://hexlet-products-store.vercel.app/
-
-- summary: |
-    Выбор товара по цене  
+    Нет выбора в ценовом диопазе от "2000" до "2500"  
   environment: |
    https://hexlet-products-store.vercel.app/
 
 - summary: |
-    Подробный просмотр товара  
+    Невозможно рассмотреть товар при приближении   
   environment: |
     https://hexlet-products-store.vercel.app/products/1
 
 - summary: |
-    Проверка товаров в корзине после удаления  
+    В проверке товаров не работает крестик для закрытие  
   environment: |
-    https://hexlet-products-store.vercel.app/cart  
+    https://hexlet-products-store.vercel.app/cart
+
+- summary: |
+    В проверке товаров не работает крестик для закрытие  
+  environment: |
+    https://hexlet-products-store.vercel.app/cart   
+    
+
 
    
 

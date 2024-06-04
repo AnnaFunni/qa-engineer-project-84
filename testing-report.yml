@@ -1,0 +1,67 @@
+- summary: |
+Страница языка 
+status: pass
+
+- summary: |
+Проверка товара по ключевому слову
+status: pass
+
+- summary: |
+Выбор товара по категории
+status: pass
+
+- summary: |
+Выбор товара по бренду 
+status: pass
+
+- summary: |
+ Выбор товара нескольких брендов 
+status: pass
+
+- summary: |
+ Проверка фильтра по цене
+status: pass
+
+- summary: |
+Проверка открытия галереи из карточки товара  
+status: fail
+
+- summary: |
+Проверка перехода на следующую страницу каталога
+status: pass
+
+- summary: |
+Проверка перехода на предведущую страницу каталога
+status: pass
+
+- summary: |
+Добавление товара в корзину 
+status: pass
+
+- summary: |
+Проверка удаления товара с корзины
+status: pass
+
+- summary: |
+Проверка закрытия окна оформленного заказа
+status: fail
+
+- summary: |
+Проверка товаров в корзине 
+status: pass
+
+- summary: |
+ Проверка очистки корзины
+status: pass
+
+- summary: |
+ Продолжить покупки
+status: pass
+
+- summary: |
+ Проверка адаптивности интернет магазина
+status: fail
+
+
+
+

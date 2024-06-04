@@ -19,24 +19,62 @@
   actual-result: |
       На странице интернет магазина отображается "Nothing found"
 
-
+- summary: |
+   Проверка товара в ценовом диапозоне от "1000" до "1500"
+  environment: |
+    Google Chrome   107.0.5304.121 (Официальная сборка) (64 бит)
+    ОС Windous 04.06
+  steps-to-reproduce: |
+      1. Зайти на страницу https://hexlet-products-store.vercel.app/
+      2. Выбрать ценновой диапозон от "1000" до "1500"
+  actual-result: |
+      На странице интернет магазина отображается "Nothing found"
 
 - summary: |
-    Непредставлен товар в ценовом диопазе от "1000" до "1500"  
+    Проверка открытия галереи из карточки товара
   environment: |
-   https://hexlet-products-store.vercel.app/
-
-- summary: |
-    Невозможно рассмотреть товар при выборе, детального рассмотрения    
-  environment: |
-    https://hexlet-products-store.vercel.app/products/1
-
+    Google Chrome   107.0.5304.121 (Официальная сборка) (64 бит)
+    ОС Windous 04.06
+  steps-to-reproduce: |
+      1. Зайти на страницу https://hexlet-products-store.vercel.app/
+      2. Выбрать любой товар, например "Powder Canister"
+      3. Нажать на выбранный товар
+      4. Нажать на картинку товара 
+  actual-result: |
+      На странице интернет магазина нечего не происходит
+      
 - summary: |
     В проверке товаров не работает крестик для закрытие  
   environment: |
     https://hexlet-products-store.vercel.app/cart
 
+- summary: |
+    Проверка окна закрытия оформленного заказа 
+  environment: |
+    Google Chrome   107.0.5304.121 (Официальная сборка) (64 бит)
+    ОС Windous 04.06
+  steps-to-reproduce: |
+      1. Зайти на страницу https://hexlet-products-store.vercel.app/
+      2. Выбрать любой товар, например "Powder Canister"
+      3. Добавить в корзину 
+      4. Открыть корзину 
+      5. Нажать на кнопку "проверить"
+      6. После того, как выйдет окно "заказ успешно размещен", нажимаем на крестик 
+  actual-result: |
+      На странице интернет магазиза не чего не происходит, окно не закрывется 
 
+- summary: |
+    Проверка адаптивности интернет магазина 
+  environment: |
+    Google Chrome   107.0.5304.121 (Официальная сборка) (64 бит)
+    ОС Windous 04.06
+  steps-to-reproduce: |
+      1. Зайти на страницу https://hexlet-products-store.vercel.app/
+      2. Открываем DevTools
+      3. Нажимаем на Dimensions
+      4. Выбираем: iPhone SE, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+,  Samsung Galaxy S20 Ulra, iPad Mini, iPad Air, Surface Pro 7, Surface Duo, Galaxy Fold, Samsung Galaxy A51/71, Nest 
+  actual-result: |
+     Отображается только "поиск", "категория", "бренд"
     
 
 

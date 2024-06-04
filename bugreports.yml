@@ -1,14 +1,4 @@
-- summary: |
-    Нет входа и регестрации пользователя 
-  environment: |
-    Google Chrome   107.0.5304.121 (Официальная сборка) (64 бит)
-    ОС Windous 04.06
-  steps-to-reproduce: |
-   1.Зайти на страницу https://hexlet-products-store.vercel.app/
-  actual-result: |
-    На странице интернет магазина нет формы для регестрации и входа пользователя 
-    
-- summary: |
+ - summary: |
    Выбор товара по поиску, без галочки "In Stok"
   environment: |
     Google Chrome   107.0.5304.121 (Официальная сборка) (64 бит)

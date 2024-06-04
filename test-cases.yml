@@ -193,7 +193,7 @@
    - Нажимаем на Dimensions
    - Выбираем: iPhone SE, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+,  Samsung Galaxy S20 Ulra, iPad Mini, iPad Air, Surface Pro 7, Surface Duo, Galaxy Fold, Samsung Galaxy A51/71, Nest Hub, Nest Hub Max
   expected-result: |
-       Отображается только "поиск", "категория", "бренд"
+       Интернет магазин адаптирован 
 
 
 - 

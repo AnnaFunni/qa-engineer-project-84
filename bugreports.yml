@@ -1,22 +1,25 @@
 - summary: |
     Нет входа и регестрации пользователя 
   environment: |
-    https://hexlet-products-store.vercel.app/
-
+    Google Chrome   107.0.5304.121 (Официальная сборка) (64 бит)
+    ОС Windous 04.06
+  steps-to-reproduce: |
+   1.Зайти на страницу https://hexlet-products-store.vercel.app/
+  actual-result: |
+    На странице интернет магазина нет формы для регестрации и входа пользователя 
+    
 - summary: |
-    Выбор товара по поиску, без галочки "в наличии" 
+   Выбор товара по поиску, без галочки "In Stok"
   environment: |
-    https://hexlet-products-store.vercel.app/
+    Google Chrome   107.0.5304.121 (Официальная сборка) (64 бит)
+    ОС Windous 04.06
+  steps-to-reproduce: |
+      1. Зайти на страницу https://hexlet-products-store.vercel.app/
+      2. На странице формы убираем галочку "In Stok"
+  actual-result: |
+      На странице интернет магазина отображается "Nothing found"
 
-- summary: |
-    Не показывает товар по категории, которого нет в наличии    
-  environment: |
-   https://hexlet-products-store.vercel.app/
 
-- summary: |
-    Не показывает товар по бренду, которого нет в наличии 
-  environment: |
-   https://hexlet-products-store.vercel.app/
 
 - summary: |
     Непредставлен товар в ценовом диопазе от "1000" до "1500"  
@@ -33,10 +36,7 @@
   environment: |
     https://hexlet-products-store.vercel.app/cart
 
-- summary: |
-    В проверке товаров не работает крестик для закрытие  
-  environment: |
-    https://hexlet-products-store.vercel.app/cart   
+
     
 
 
